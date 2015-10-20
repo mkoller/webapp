@@ -8,8 +8,8 @@
 
 - Git Clone this repo `git clone https://github.com/mkoller/webapp.git `
 - cd into this repo
-- run 'npm install'
-- run 'bower install'
+- run `npm install`
+- run `bower install`
 
 App should now be built out
 
