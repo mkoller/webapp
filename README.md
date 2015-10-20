@@ -8,6 +8,10 @@
 
 - Git Clone this repo `git clone https://github.com/mkoller/webapp.git `
 - cd into this repo
+- run 'npm install'
+- run 'bower install'
+
+App should now be built out
 
 - Run `gulp serve` to preview and watch for changes
 - Run `bower install --save <package>` to install frontend dependencies
