@@ -5,7 +5,10 @@
 
 - Install dependencies: `npm install --global yo gulp bower`
 - Install the generator: `npm install --global generator-gulp-webapp`
-- Run `yo gulp-webapp` to scaffold your webapp
+
+- Git Clone this repo `git clone https://github.com/mkoller/webapp.git `
+- cd into this repo
+
 - Run `gulp serve` to preview and watch for changes
 - Run `bower install --save <package>` to install frontend dependencies
 - Run `gulp serve:test` to run the tests in the browser
