@@ -1,6 +1,9 @@
 // bower:scss
 // endbower
 
+@import "bower_components/susy/sass/susy";
+@import "bower_components/compass-breakpoint/stylesheets/breakpoint";
+
 body {
   background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;

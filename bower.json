@@ -3,10 +3,12 @@
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "susy": "~2.2.6"
   },
   "devDependencies": {
     "chai": "~3.3.0",
-    "mocha": "~2.3.3"
+    "mocha": "~2.3.3",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
   }
 }
