@@ -79,12 +79,10 @@ gulp.task('fonts', () => {
 });
 
 gulp.task('extras', () => {
-  return gulp.src([
-    'app/*.*',
-    '!app/*.html'
+  return gulp.src(['app/extras/**/*'
   ], {
     dot: true
-  }).pipe(gulp.dest('dist'));
+  }).pipe(gulp.dest('dist/extras'));
 });
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
