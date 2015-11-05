@@ -3,6 +3,19 @@
 
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "../bower_components/mappy-breakpoints/mappy-breakpoints";
+
+
+// these are mappy breakpoints, documentation - http://www.zell-weekeat.com/mappy-breakpoints/
+$breakpoints: (
+  'small'     : 320px,
+  'med'       : 640px,
+  'large'     : 920px,
+  'wide'      : 1200px,
+  'mega'      : 1400px,
+  // ...
+  );
+
 
 body {
   background: #fafafa;
@@ -23,6 +36,10 @@ body {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+    @include mappy-bp(small large) {
+  font-size: 18px;
+}
+
   }
 }
 
@@ -38,3 +55,6 @@ body {
   display: block;
   width: 100%;
 }
+
+
+
