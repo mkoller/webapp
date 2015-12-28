@@ -30,3 +30,5 @@ App should now be built out
 * Awesome image optimization
 * Automagically wire-up dependencies installed with [Bower](http://bower.io)
 * The gulpfile makes use of [ES2015 features](https://babeljs.io/docs/learn-es2015/) by using [Babel](https://babeljs.io)
+
+![Image of Calvin and Hobbes](http://i.imgur.com/5gAr7fy.jpg)
